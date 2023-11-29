@@ -33,19 +33,29 @@ MicroShell is a simple Unix-like shell implemented in C. It supports basic shell
    ./<name-you-want-to-give>
 
 ## Examples
-$ ./microshell
+```bash
+./microshell
+```
 ***MicroShell***
 **Author: Pavel Bielko**
 *Implemented commands: exit, help, cd, pwd, echo*
 
-[Prompt]$ help
+```bash
+ help
+```
 Display information about the MicroShell project or specific commands.
 
-[Prompt]$ cd /path/to/directory
+```bash
+cd /path/to/directory
+```
 Change the working directory.
 
-[Prompt]$ echo Hello, MicroShell!
+```bash
+echo Hello, MicroShell!
+```
 Hello, MicroShell!
 
-[Prompt]$ exit
+```bash
+exit
+```
 Ending shell
